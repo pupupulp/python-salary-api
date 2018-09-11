@@ -58,7 +58,7 @@ if [ -z "${VIRTUAL_ENV_DISABLE_PROMPT-}" ] ; then
     if [ "x" != x ] ; then
         PS1="$PS1"
     else
-        PS1="(`basename \"$VIRTUAL_ENV\"`) $PS1"
+        PS1="(`basename \"$VIRTUAL_ENV\"`) \n$PS1"
     fi
     export PS1
 fi
